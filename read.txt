@@ -1,0 +1,5 @@
+#Note by Markin.Chu
+
+Step 1: Install python-nmap from http://xael.org/norman/python/python-nmap/#download.
+
+Step 2: Install Nmap. e.g.:Use the command "yum install nmap" to install nmap on the CentOS system.
