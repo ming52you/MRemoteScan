@@ -37,7 +37,7 @@ model_flag = "release"
 if argc == RUN_MAX_ARGC:
     model_flag = sys.argv[RUN_MAX_ARGC]
 
-if model_flag != release and model_flag != debug:
+if model_flag != "release" and model_flag != "debug":
     print "Error:The argument of model is error."
 
 print "The current model is: ",sys.argv[RUN_MAX_ARGC]
