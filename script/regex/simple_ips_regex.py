@@ -6,7 +6,7 @@
 # 10.10.10.1
 # 10.10.*.*
 # 10.10.10.0/24
-# 10.10.10.1-10.10.10.254
+# 10.10.10.1-254
 import sys
 from regex.ips_regex import *
 
@@ -36,5 +36,5 @@ if model_flag == "debug":
     print "The hosts is ", hosts,",and the format is ", ip_check(hosts)
 
 
-#print ip_check("192.168.2.111-192.168.2.22")
+#print ip_check("192.168.2.111-22")
 
